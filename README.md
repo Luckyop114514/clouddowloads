@@ -1,4 +1,4 @@
-# Clouddowloads
+# CloudPluginsDowloads
 
 一个简单实用的 Bukkit/Paper 插件下载工具，支持从 URL 或 Modrinth 直接下载插件到服务器的 plugins 文件夹。
 
