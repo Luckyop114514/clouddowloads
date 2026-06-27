@@ -1,0 +1,21 @@
+name: PluginDownloader
+version: 1.0
+main: com.lazyop.PluginDownloader
+api-version: 1.21
+author: Lazyop
+description: 从URL或Modrinth下载插件到plugins文件夹
+
+commands:
+  cldw:
+    description: 从URL或Modrinth下载插件
+    usage: |-
+      /cldw singlefile <url>
+      /cldw multiplefiles <url>,<url>
+      /cldw modrinth <slug/ID>
+    permission: plugindownloader.download
+    permission-message: §c你没有权限使用此命令！
+
+permissions:
+  plugindownloader.download:
+    description: 允许下载插件
+    default: op
